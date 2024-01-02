@@ -1,0 +1,186 @@
+.doc_name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.main_sec_tiles{
+    display: flex;
+    margin: 18px 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.main_sec_tiles .sec1_tile{
+    box-shadow: 0px 5px 20px #0000001a;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    /* width: 22%; */
+}
+.sec1_tile_content{
+    display: flex;
+    justify-content: space-between;
+}
+.sec1_tile_content .sec1_tile_contentone h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.sec1_tile_content .sec1_tile_contentone p{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sec1_tile_content .sec1_tile_contentone_icon{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 26px;
+}
+.bx-user-check,
+.bxs-chevron-left,
+.bxs-chevron-right{
+    box-shadow: inset 0px 5px 20px #0000001a;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+.sec2_tile_content{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 0;
+    align-items: center;
+}
+.sec2_tile_content .sec2_tile_contentone p{
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sec2_tile_content .sec2_tile_contenttwo p{
+    text-transform: capitalize;
+    font-size: 14px;
+    margin: 0;
+}
+.bxs-right-arrow{
+    font-size: 10px;
+}
+
+/* Patient record */
+.patient_record{
+    background: #e5e5e5;
+    padding: 22px 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.patient_record .calander_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.patient_record .calender_date{
+    padding: 24px 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.patient_record .calender_date button{
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 8%;
+}
+.patient_history_sec2{
+    background: white;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.patient_history_sec2 p{
+    margin: 0;
+    color: black;
+    font-weight: 500;
+}
+.patient_history_sec2 button{
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+.table{
+    border-collapse: inherit;
+    padding: 0 24px 14px;
+    background: white;
+}
+.table thead th {
+    padding: 10px!important;
+    font-weight: 500;
+    color: black;
+}
+tbody tr{
+    height: 58px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+tbody button{
+    border: none;
+    padding: 8px 10px;
+    border-radius: 12px;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+tbody .up_btn{
+    background: #3dda3d;
+    color: white;
+}
+tbody .can_btn{
+    background: #ff6060;
+    color: white;
+}
+.patient_Visthistory{
+    background: white;
+    border-radius: 8px;
+    padding: 22px 14px;
+}
+.Vist_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Vist_header p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Vist_header .form-select{
+    width: 26%;
+    padding: 6px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: none;
+    height: 38px;
+    text-align: center;
+}
+.Vist_count{
+    display: flex;
+    justify-content: space-around;
+    padding: 22px 0;
+}
+.count_data h2{
+    font-size: 24px;
+    margin: 10px auto 0;
+    font-weight: 600;
+}
+.count_data p{
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+@media screen and (max-width: 720px) {
+    .patient_Visthistory_sec{
+        width: 100%;
+    }
+}

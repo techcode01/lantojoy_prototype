@@ -1,0 +1,20 @@
+[
+    {
+    "id": "uuidv4()",
+    "title": "Edit Me", 
+    "start": "2023-12-12",
+    "backgroundColor": "red",
+    "allDay": false, 
+    "editable": false
+  },
+  {
+    "id": "uuidv4()",
+    "title": "Delete me",
+    "start": "2023-12-15",
+    "end": "2023-12-18",
+
+    "allDay": false, 
+    "editable": false
+  }
+
+]
